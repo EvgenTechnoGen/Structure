@@ -28,5 +28,6 @@ int main(int argc, const char * argv[]) {
     cout << "Audi speed = " << audi.speed << "\n" << "Shcoda year = " << shkoda.sozdanie.year << endl;
     
     cin.get();
+    system("pause");
     return 0;
 }
