@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 struct Date {
     int year;
 };
@@ -25,9 +23,9 @@ int main(int argc, const char * argv[]) {
     
     Auto audi = {4, 300.23, 'b'};
     
-    cout << "Audi speed = " << audi.speed << "\n" << "Shcoda year = " << shkoda.sozdanie.year << endl;
+    std::cout << "Audi speed = " << audi.speed << "\n" << "Shcoda year = " << shkoda.sozdanie.year << std::endl;
     
-    cin.get();
+    std::cin.get();
     system("pause");
     return 0;
 }
